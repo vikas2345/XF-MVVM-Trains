@@ -1,4 +1,5 @@
 ﻿using System;
+using Trains.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace Trains
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new SamplePage();
         }
 
         protected override void OnStart()

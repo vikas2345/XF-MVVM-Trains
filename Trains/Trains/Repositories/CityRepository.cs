@@ -55,7 +55,6 @@ namespace Trains.Repositories
 
         };
 
-
         public async Task<IEnumerable<City>> GetAllCities()
         {
             return await Task.FromResult(AllCities);
