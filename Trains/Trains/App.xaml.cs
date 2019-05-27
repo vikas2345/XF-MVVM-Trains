@@ -12,7 +12,7 @@ namespace Trains
         {
             InitializeComponent();
 
-            MainPage = new SamplePage();
+            MainPage = new ShadedButtonPage();
         }
 
         protected override void OnStart()

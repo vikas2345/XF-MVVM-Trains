@@ -21,11 +21,15 @@
 
   <ItemGroup>
     <Folder Include="Model\App\" />
+    <Folder Include="Behaviors\" />
     <Folder Include="Services\General\" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Views\SamplePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ShadedButtonPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
